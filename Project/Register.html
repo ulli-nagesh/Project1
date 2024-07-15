@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <form>
+        <h2>Registretion Form</h2>
+        First Name : <input type="text" name="First" placeholder="firstname"><br><br>
+        Last Name : <input type="text" name="Last" placeholder="Lastname"><br><br>
+        DOB : <input type="date"><br><br>
+        email : <input class="username" type="text" name="email" placeholder="username"><br><br>
+        password : <input class="password" type="password" name="pass"><br><br>
+        mobile no : <input class="mobile" type="text" name="mobile"><br><br>
+        State : <select>
+            <option value="ap">Ap</option>
+            <option value="tg">Telangana</option>
+            <option value="up">UP</option>
+        </select><br><br>
+        Branch : <input type="checkbox">CSE
+        <input type="checkbox">MECH
+        <input type="checkbox">CIVIL
+        <input type="checkbox">ECE <br><br>
+        Gender : <input type="radio">Male
+        <input type="radio">Female <br><br>
+        <button class="submit">Submit</button> 
+        <button class="reset">reset</button>
+    </form>
+    <style>
+        h2{
+            text-align: center;
+            color: red;
+        }
+        form{
+            text-align: center;
+        }
+        .submit{
+            background-color: lightblue;
+            color: black;
+            border: none;
+        }
+        .reset{
+            background-color: lightblue;
+            color: black;
+            border: none;
+            margin-left: 40px;
+        }
+    </style>
+</body>
+</html>
